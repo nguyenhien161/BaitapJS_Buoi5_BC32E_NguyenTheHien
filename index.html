@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container" style="margin-bottom: 500px;">
+        <h3>Bài 1: Quản lý tuyển sinh</h3>
+        <div class="col mt-3">
+            <div class="input-group mt-5">
+                <input type="number" placeholder="Điểm chuẩn" class="form-control" id="diemChuan">
+            </div>
+            <div class="input-group mt-5">
+                <select class="form-group" id="khuVuc">
+                    <option value="0">Chọn khu vực</option>
+                    <option value="2">Khu vực A</option>
+                    <option value="1.5">Khu vực B</option>
+                    <option value="1">Khu vực C</option>
+                </select>
+            </div>
+            <div class="input-group mt-5">
+                <select class="form-group" id="doiTuong">
+                    <option value="0">Chọn đối tượng</option>
+                    <option value="2">1</option>
+                    <option value="1.5">2</option>
+                    <option value="0.5">3</option>
+                </select>
+            </div>
+            <div class="input-group mt-5">
+                <input type="number" placeholder="Điểm môn thứ 1" class="form-control" id="diemMon1">
+            </div>
+            <div class="input-group mt-5">
+                <input type="number" placeholder="Điểm môn thứ 2" class="form-control" id="diemMon2">
+            </div>
+            <div class="input-group mt-5">
+                <input type="number" placeholder="Điểm môn thứ 3" class="form-control" id="diemMon3">
+            </div>
+        </div>
+        <div class="text-center mt-2">
+            <button class="btn btn-warning" id="btnKetQua">Kết Quả</button>
+        </div>
+        <div class="alert alert-success" id="ketQua">
+
+        </div>
+
+        <hr />
+        <h3>Bài 2: tính tiền điện</h3>
+        <div class="form-group">
+            <input type="text" id="hoTen" placeholder="Nhập họ tên" class="form-group">
+        </div>
+        <div class="form-group">
+            <input type="text" id="soKW" placeholder="Nhập số KW" class="form-group">
+        </div>
+        <div>
+            <button class="btn btn-success" id="btnTinhTien">Tính tiền điện</button>
+        </div>
+        <div class="alert alert-warning" id="ketQua_1">
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
+</body>
+
+</html>
